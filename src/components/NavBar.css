@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+.navbox{
+    background: black;
+    color: aliceblue;
+    display: flex;
+    height: 5rem;
+    margin: 0;    
+    justify-content: space-between;
+    padding: 1rem 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.07rem;
+}
+
+.links-list{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.list-items{
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+}
+
+.mobile-nav{
+    background: #000;
+    display: flex;
+    height: 3rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    position: relative;
+}
+.mobile-nav i{
+    color: white;
+    cursor: pointer;
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+}
+.mobile-list{
+    display: none;
+    list-style-type: none;
+    background-color: #000;
+    color: white;
+    justify-content:stretch;
+    padding: 1rem;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 1rem;
+    place-items: justify;
+    z-index: -10;
+    letter-spacing: 2px;
+}
+
+.is-active{
+    display: grid;
+}
+
+.mobile-list .list-items{
+    padding: 0.5rem;
+    box-shadow: 0px 1px 5px 6px rgba(255, 255, 255, 0.75);
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 10px 5px;
+    margin: 1px 5px;
+}
+
+
+@media screen and (min-width:800px){
+    .mobile-nav, .mobile-list{
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px){
+    .navbox{
+        padding: 1rem 30px;
+        height: 4rem;
+    }
+}
+@media screen and (min-width:739.5px) and (max-width:800px) {
+    .navbox{
+        padding: 1rem 30px;
+        height: 4rem;
+    }
+    
+    .links-list{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:799.5px) {
+    .navbox{
+        display: none;
+    }
+
+}
+
