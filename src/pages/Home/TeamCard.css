@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.group-set {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+  margin: 40px 13%;
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 1200px;
+}
+
+h3,
+h4 {
+  margin: 2px 0;
+  padding: 2px 0;
+  font-weight: normal;
+  text-align: right;
+}
+
+.card-wrapper {
+  /* border: 1px solid red; */
+  color: aliceblue;
+  margin: 0 30px;
+  border: 4px white solid;
+  position: relative;
+}
+
+.card-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+h4 {
+  color: rgb(252, 210, 217);
+}
+.fab {
+  color: rgb(203, 240, 255);
+  font-size: 1.5rem;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .group-set {
+    margin: 30px 10%;
+  }
+  .card-wrapper {
+    margin: 0 30px;
+  }
+  .card-content {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .group-set {
+    margin: 30px 8%;
+  }
+  .card-content {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .group-set {
+    margin: 40px 5%;
+  }
+  .card-wrapper {
+    margin: 0 20px;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .group-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 6%;
+    gap: 10px 20px;
+  }
+
+  /* .card-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5%;
+    height: auto;
+    margin: 3px;
+    font-size: 125%;
+  } */
+
+  .card-wrapper {
+    display: flex;
+    height: 200px;
+    width: 90%;
+  }
+  .card-wrapper img {
+    width: auto;
+  }
+  .card-content {
+    font-size: 1rem;
+    position: relative;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .group-set {
+    margin: 30px 15%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .card-wrapper {
+    font-size: 100%;
+  }
+}

@@ -3,7 +3,7 @@
 
 
 .navbox{
-    background: black;
+    background: url(./../../public/1397050.webp);
     color: aliceblue;
     display: flex;
     height: 5rem;
@@ -27,7 +27,7 @@
 }
 
 .mobile-nav{
-    background: #000;
+    background: url(./../../public/1397050.webp);
     display: flex;
     height: 3rem;
     padding: 20px;
@@ -49,7 +49,6 @@
 .mobile-list{
     display: none;
     list-style-type: none;
-    background-color: #000;
     color: white;
     justify-content:stretch;
     padding: 1rem;
@@ -74,6 +73,10 @@
     margin: 1px 5px;
 }
 
+.navbox, .mobile-nav{
+    box-shadow: 0px 0.2px 0px 0px snow;
+
+}
 
 @media screen and (min-width:800px){
     .mobile-nav, .mobile-list{

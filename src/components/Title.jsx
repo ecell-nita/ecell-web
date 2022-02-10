@@ -3,8 +3,7 @@ import "./Title.css";
 const Section_Title = ({ title }) => {
   return (
     <>
-      <div className="title">
-        <span>
+      <div className="section-title-box">
           <svg
             viewBox="0 0 45 45"
             fill="none"
@@ -15,9 +14,7 @@ const Section_Title = ({ title }) => {
               fill="white"
             />
           </svg>
-          <span>{title}</span>
-        </span>
-        <span>
+          <span className="section-title">{title}</span>
           <svg
             viewBox="0 0 45 45"
             fill="none"
@@ -28,7 +25,6 @@ const Section_Title = ({ title }) => {
               fill="white"
             />
           </svg>
-        </span>
       </div>
 
       <svg
@@ -36,7 +32,7 @@ const Section_Title = ({ title }) => {
         height="10"
         viewBox="0 0 183 10"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg" className="title-bottom"
       >
         <path
           d="M0 0V3.33333H182.083V0H0ZM0 10H47.9167V6.66667H0V10ZM67.0833 10H115V6.66667H67.0833V10ZM134.167 10H182.083V6.66667H134.167V10Z"

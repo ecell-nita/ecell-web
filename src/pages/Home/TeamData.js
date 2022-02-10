@@ -1,3 +1,7 @@
+import img from "./../../assets/Kartikeya-Singh.png";
+
+
+
 export const Executive_Team = [
     {
         index: 0,
@@ -7,42 +11,42 @@ export const Executive_Team = [
         linkdUrl: "#",
     },
     {
-        index: 0,
+        index: 1,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Kartikeya Singh",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/sadhana-bolla/",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
-    }
+        name: "Rashmita Chakraborty",
+        post: "esdfghjk",
+        linkdUrl: "https://www.linkedin.com/in/likhitha-surya-sri/",
+    },
 ]
 
 export const Design_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Tanmay Shree",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/tanmayshree/",
     },
     {
-        index: 0,
+        index: 1,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Deep Shikha",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/deepshikha56/",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Nababrata Deb",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/deepshikha56/",
     }
 ]
 
@@ -50,23 +54,37 @@ export const Content_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
+        name: "Hemant Shankar",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/hemant-shankar/",
+    },
+    {
+        index: 1,
+        image: img,
+        name: "Srija Das",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/srija-das/",
+    },
+    {
+        index: 2,
+        image: img,
+        name: "Akshat Srivastava",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/akshatsrivastava01/",
+    },
+    {
+        index: 3,
+        image: img,
+        name: "Kajal Kumari",
+        post: "Member",
         linkdUrl: "#",
     },
     {
-        index: 0,
+        index: 4,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
-    },
-    {
-        index: 0,
-        image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Triasha Roy",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/triasharoy/",
     }
 ]
 
@@ -74,23 +92,23 @@ export const Outreach_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Dharun Shankar",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/dharun-shankar/",
     },
     {
-        index: 0,
+        index: 1,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Deep Shikha",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/deepshikha56/",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Madhumita Moi",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/madhumita-moi/",
     }
 ]
 
@@ -98,23 +116,23 @@ export const Alumni_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Pranjal Tank",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/pranjal-tank/",
     },
     {
-        index: 0,
+        index: 1,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Madhumita Moi",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/madhumita-moi/",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Janmesh Joshi",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/janmesh-joshi/",
     }
 ]
 
@@ -122,23 +140,23 @@ export const Finance_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
+        name: "Hemant Shankar",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/hemant-shankar/",
+    },
+    {
+        index: 1,
+        image: img,
+        name: "Kajal Kumari",
+        post: "Member",
         linkdUrl: "#",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
-    },
-    {
-        index: 0,
-        image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Pratnadeep Banik",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/pratnadeepbanik/",
     }
 ]
 
@@ -146,23 +164,23 @@ export const Tech_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Nababrata Deb",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/nababratadeb/",
     },
     {
-        index: 0,
+        index: 1,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Krishna Chandak",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/krishna-chandak-abc/",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Tanmay Shree",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/tanmayshree/",
     }
 ]
 
@@ -170,23 +188,37 @@ export const Startup_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Rohit Nori",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/rohit-nori/",
     },
     {
-        index: 0,
+        index: 1,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Akshat Srivastava",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/akshatsrivastava01/",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Diptanu Debnath",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/diptanu-debnath04/",
+    },
+    {
+        index: 3,
+        image: img,
+        name: "Janmesh Joshi",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/janmesh-joshi/",
+    },
+    {
+        index: 4,
+        image: img,
+        name: "Dharun Shankar",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/dharun-shankar/",
     }
 ]
 
@@ -194,23 +226,23 @@ export const Events_Team = [
     {
         index: 0,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Pranjal Tank",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/pranjal-tank/",
     },
     {
-        index: 0,
+        index: 1,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Pratnadeep Banik",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/pratnadeepbanik/",
     },
     {
-        index: 0,
+        index: 2,
         image: img,
-        name: "Rajkhush Kumar",
-        post: "President",
-        linkdUrl: "#",
+        name: "Mukul Kumar",
+        post: "Member",
+        linkdUrl: "https://www.linkedin.com/in/mukul-kr/",
     }
 ]
 

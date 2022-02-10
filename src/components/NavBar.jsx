@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import logo from "./../assets/Logo-color.png";
+import logo from "./../assets/Logo-White.png";
 import { useState } from "react";
 import { Fade } from 'react-reveal';
 import RubberBand from 'react-reveal/RubberBand';

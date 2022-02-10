@@ -1,91 +1,107 @@
-import './Team.css'
-import img from "./../../assets/Kartikeya-Singh.jpeg";
+import './TeamCard.css';
 import Section_Title from '../../components/Title';
-
+import { Executive_Team, Design_Team, Content_Team, Outreach_Team, Alumni_Team, Finance_Team, Tech_Team, Startup_Team, Events_Team } from "./TeamData";
+import TeamCard from "./TeamCard";
 const Team = () => {
   return (
     <>
       <Section_Title title="Executive Team" />
       <div className="group-set">
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
+        {
+          Executive_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
       </div>
 
+      <Section_Title title="Design Team" />
       <div className="group-set">
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
+        {
+          Design_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
       </div>
 
-
+      <Section_Title title="Content Team" />
       <div className="group-set">
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
-        <div className="card-wrapper">
-          <img src={img} alt="" />
-          <div className="card-content">
-            <h3>Rajkhush Kumar</h3>
-            <h4>President</h4>
-            <i class="fab fa-linkedin" />
-          </div>
-        </div>
+        {
+          Content_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
+      </div>
+
+      <Section_Title title="Outreach Team" />
+      <div className="group-set">
+        {
+          Outreach_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
+      </div>
+
+      <Section_Title title="Alumni Team" />
+      <div className="group-set">
+        {
+          Alumni_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
+      </div>
+
+      <Section_Title title="Finance Team" />
+      <div className="group-set">
+        {
+          Finance_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
+      </div>
+
+      <Section_Title title="Technical Team" />
+      <div className="group-set">
+        {
+          Tech_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
+      </div>
+
+      <Section_Title title="Startup Team" />
+      <div className="group-set">
+        {
+          Startup_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
+      </div>
+
+      <Section_Title title="Event Management Team" />
+      <div className="group-set">
+        {
+          Events_Team.map((Member) => {
+            return (
+              <TeamCard key={Member.index} props={Member} />
+            )
+          })
+        }
       </div>
 
 
