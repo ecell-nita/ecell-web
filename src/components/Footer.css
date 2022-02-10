@@ -6,6 +6,8 @@
     align-items: center;
     background: #000333;
     text-align-last: left;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.74);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.74);
 }
 
 .logo{
@@ -20,11 +22,12 @@
     margin: 0 50px;
 
 }
-.title{
+.links-title{
     font-size: 1.3rem;
     color: wheat;
     line-height: 30px;
     border-bottom: 2px solid aliceblue;
+    border-radius: 7px;
 }
 .link{
     margin: 10px 0;
@@ -66,7 +69,7 @@
     .logo{
         width: 8rem;
     }
-    .title{
+    .links-title{
         font-size: 1.1rem;
     }
     .foot-link{
@@ -75,10 +78,13 @@
 }
 
 @media screen and (max-width: 800px) {
+    .Footer{
+        padding-top: 0;
+    }
     .logo{
         display: none;
     }
-    .title{
+    .links-title{
         border-bottom: 1px solid aliceblue;
     }
     .social-title{

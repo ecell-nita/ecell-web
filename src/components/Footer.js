@@ -8,7 +8,7 @@ const Footer = () => {
                 <img className="logo" src={img} alt="E-CELL" />
                 <div className="foot-links-wrapper">
                     <div className="site-links foot-link">
-                        <h4 className="title">Site Links</h4>
+                        <h4 className="links-title">Site Links</h4>
                         <p className="link">Home</p>
                         <p className="link">About</p>
                         <p className="link">Events</p>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
 
                     <div className="ref-links foot-link">
-                        <h4 className="title">Reference Links</h4>
+                        <h4 className="links-title">Reference Links</h4>
                         <p className="link">NIT Agartala</p>
                         <p className="link">IIIT Agartala</p>
                         <p className="link">IIC Website</p>

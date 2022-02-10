@@ -3,8 +3,8 @@
 .group-set {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  
-  margin: 40px 13%;
+  gap: 45px 0;
+  margin: 40px 12%;
   font-family: "Josefin Sans", sans-serif;
   max-width: 1200px;
 }
@@ -12,7 +12,7 @@
 h3,
 h4 {
   margin: 2px 0;
-  padding: 2px 0;
+  padding: 2px 7px;
   font-weight: normal;
   text-align: right;
 }
@@ -34,13 +34,14 @@ h4 {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
 
 h4 {
   color: rgb(252, 210, 217);
 }
-.fab {
+.fab{
   color: rgb(203, 240, 255);
   font-size: 1.5rem;
   position: absolute;
@@ -50,7 +51,9 @@ h4 {
 
 @media screen and (max-width: 1200px) {
   .group-set {
-    margin: 30px 10%;
+    margin: 30px 8%;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
   }
   .card-wrapper {
     margin: 0 30px;
@@ -59,31 +62,33 @@ h4 {
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   .group-set {
     margin: 30px 8%;
   }
-  .card-content {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 900px) {
+
+} */
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .group-set {
-    margin: 40px 5%;
+    margin: 40px 11%;
+    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
   }
   .card-wrapper {
-    margin: 0 20px;
+    margin: 0 10px;
     font-size: 90%;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .group-set {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 6%;
-    gap: 10px 20px;
+    margin: 30px auto;
+    row-gap: 20px;
+    max-width: 320px;
   }
 
   /* .card-wrapper {
@@ -110,11 +115,7 @@ h4 {
     position: relative;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 700px) {
-  .group-set {
-    margin: 30px 15%;
-  }
-}
+
 @media screen and (max-width: 590px) {
   .card-wrapper {
     font-size: 100%;

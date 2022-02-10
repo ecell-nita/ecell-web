@@ -3,7 +3,7 @@
 
 
 .navbox{
-    background: url(./../../public/1397050.webp);
+    /* background: url(./../../public/1397050.webp); */
     color: aliceblue;
     display: flex;
     height: 5rem;
@@ -27,7 +27,8 @@
 }
 
 .mobile-nav{
-    background: url(./../../public/1397050.webp);
+    /* background: url(./../../public/1397050.webp); */
+    background: #000;
     display: flex;
     height: 3rem;
     padding: 20px;
@@ -84,7 +85,7 @@
     }
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:950px){
     .navbox{
         padding: 1rem 30px;
         height: 4rem;

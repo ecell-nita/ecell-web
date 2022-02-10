@@ -3,22 +3,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50vw;
+    max-width: 70vw;
     margin: 0 auto;
     transform: translateY(7px);
 }
 
 .section-title-box svg{
-    width: 2.5rem;
+    width: 2rem;
     padding: 10px;
     transform: translateY(-2px);
 }
 
 .section-title{
-    font-size: 3.3rem;
+    font-size: 2.8rem;
 }
 .title-bottom{
-    width: 20vw;
+    width: 9vw;
     margin: 0;
     padding: 0;
 }
@@ -28,7 +28,7 @@
         width: 2rem;
     }
     .section-title{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -37,7 +37,7 @@
         width: 1.5rem;
     }
     .section-title{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 }
 
@@ -50,13 +50,13 @@
         transform: translateY(3px);
     }
     .section-title{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media screen and (max-width: 460px) {
     .section-title-box{
-        max-width: 85vw;
+        max-width: 90vw;
     }
     .section-title-box svg{
         width: 1rem;
