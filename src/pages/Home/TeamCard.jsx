@@ -8,7 +8,7 @@ const TeamCard = ({ props }) => {
         <h3>{props.name}</h3>
         <h4>{props.post}</h4>
       </div>
-      <a href={props.linkdUrl} target="_blank"><i class="fab fa-linkedin" /></a>
+      <a href={props.linkdUrl} target="_blank"><i class="team-sm fab fa-linkedin" /></a>
     </div>
   );
 };

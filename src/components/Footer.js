@@ -33,6 +33,7 @@ const Footer = () => {
                 <i class="f-sm fab fa-facebook" />
                 <i class="f-sm fab fa-youtube" />
                 <i class="f-sm fab fa-instagram" />
+                <i class="f-sm fab fa-twitter" />
                 <i class="f-sm fab fas fa-envelope" />
             </div>
 

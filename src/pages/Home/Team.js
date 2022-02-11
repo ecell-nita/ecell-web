@@ -4,7 +4,7 @@ import { Executive_Team, Design_Team, Content_Team, Outreach_Team, Alumni_Team, 
 import TeamCard from "./TeamCard";
 const Team = () => {
   return (
-    <>
+    <div className='team_page'>
       <Section_Title title="Executive Team" />
       <div className="group-set">
         {
@@ -105,7 +105,7 @@ const Team = () => {
       </div>
 
 
-    </>
+    </div>
   );
 }
 
