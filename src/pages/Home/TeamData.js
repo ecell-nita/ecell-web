@@ -16,13 +16,15 @@ import srijadas from "./../../assets/ecellimages/banani-das.jpeg";
 import rohitn from "./../../assets/ecellimages/rohit-n.jpeg";
 import triasharoy from "./../../assets/ecellimages/triasha-roy.jpeg";
 import tanmayshree from "./../../assets/ecellimages/tanmay-shree.jpeg";
+import rashmitachakraborty from "./../../assets/ecellimages/rashmita-chakraborty.jpg";
+import rakjhushkumar from "./../../assets/ecellimages/rajkhush-kumar.jpg";
 
 
 
 export const Executive_Team = [
     {
         index: 0,
-        image: img,
+        image: rakjhushkumar,
         name: "Rajkhush Kumar",
         post: "President",
         linkdUrl: "#",
@@ -36,7 +38,7 @@ export const Executive_Team = [
     },
     {
         index: 2,
-        image: img,
+        image: rashmitachakraborty,
         name: "Rashmita Chakraborty",
         post: "esdfghjk",
         linkdUrl: "https://www.linkedin.com/in/likhitha-surya-sri/",

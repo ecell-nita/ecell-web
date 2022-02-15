@@ -13,19 +13,24 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.07rem;
 }
-
 .links-list{
     list-style-type: none;
     display: flex;
     text-align: center;
     align-items: flex-end;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover, li:focus, li:visited{
+    color: white;
+}
 
 .list-items{
     padding: 1rem 1.25rem;
     cursor: pointer;
 }
-
 .mobile-nav{
     /* background: url(./../../public/1397050.webp); */
     background: #000;

@@ -1,9 +1,9 @@
 import "./NavBar.css";
 import logo from "./../assets/Logo-White.png";
 import { useState } from "react";
-import { Fade } from 'react-reveal';
-import RubberBand from 'react-reveal/RubberBand';
-
+import { Fade } from "react-reveal";
+import RubberBand from "react-reveal/RubberBand";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
@@ -13,12 +13,24 @@ const NavBar = () => {
       <nav className="navbox">
         <img src={logo} alt="" />
         <div className="links-list">
-          <li className="list-items">Home</li>
-          <li className="list-items">Events</li>
-          <li className="list-items">Gallery</li>
-          <li className="list-items">Our Team</li>
-          <li className="list-items">Testimonials</li>
-          <li className="list-items">Contact Us</li>
+          <NavLink to="/">
+            <li className="list-items">Home</li>
+          </NavLink>
+          <NavLink to="/events">
+            <li className="list-items">Events</li>
+          </NavLink>
+          <NavLink to="/gallery">
+            <li className="list-items">Gallery</li>
+          </NavLink>
+          <NavLink to="/team">
+            <li className="list-items">Our Team</li>
+          </NavLink>
+          <NavLink to="testimonials">
+            <li className="list-items">Testimonials</li>
+          </NavLink>
+          <NavLink to="contact-us">
+            <li className="list-items">Contact Us</li>
+          </NavLink>
         </div>
       </nav>
 
@@ -32,18 +44,82 @@ const NavBar = () => {
         />
       </nav>
 
-        <Fade top opposite>
-
+      <Fade top opposite>
         <div className={!menu ? "mobile-list" : "mobile-list is-active"}>
-        <RubberBand cascade><li className="list-items">Home</li></RubberBand>
-        <RubberBand cascade><li className="list-items">Events</li></RubberBand>
-        <RubberBand cascade><li className="list-items">Gallery</li></RubberBand>
-        <RubberBand cascade><li className="list-items">Our Team</li></RubberBand>
-        <RubberBand cascade><li className="list-items">Testimonials</li></RubberBand>
-        <RubberBand cascade><li className="list-items">Contact Us</li></RubberBand>
+          <NavLink to="/">
+            <RubberBand cascade>
+              <li
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+                className="list-items"
+              >
+                Home
+              </li>
+            </RubberBand>
+          </NavLink>
+          <NavLink to="/events">
+            <RubberBand cascade>
+              <li
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+                className="list-items"
+              >
+                Events
+              </li>
+            </RubberBand>
+          </NavLink>
+          <NavLink to="/gallery">
+            <RubberBand cascade>
+              <li
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+                className="list-items"
+              >
+                Gallery
+              </li>
+            </RubberBand>
+          </NavLink>
+          <NavLink to="/team">
+            <RubberBand cascade>
+              <li
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+                className="list-items"
+              >
+                Our Team
+              </li>
+            </RubberBand>
+          </NavLink>
+          <NavLink to="/testimonials">
+            <RubberBand cascade>
+              <li
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+                className="list-items"
+              >
+                Testimonials
+              </li>
+            </RubberBand>
+          </NavLink>
+          <NavLink to="/contact-us">
+            <RubberBand cascade>
+              <li
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+                className="list-items"
+              >
+                Contact Us
+              </li>
+            </RubberBand>
+          </NavLink>
         </div>
-      
-        </Fade>
+      </Fade>
     </>
   );
 };
