@@ -1,0 +1,131 @@
+.Footer{
+    padding: 70px 20px;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000333;
+    /*  */
+    text-align-last: left;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.74);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.74);
+}
+
+.logo{
+    width: 10rem;
+    height: 100%;
+    cursor: pointer;
+}
+.foot-links-wrapper{
+    display: flex;    
+}
+.foot-link{
+    margin: 0 50px;
+
+}
+.links-title{
+    font-size: 1.3rem;
+    color: wheat;
+    line-height: 30px;
+    border-bottom: 2px solid aliceblue;
+    border-radius: 7px;
+}
+.link{
+    margin: 10px 0;
+    padding: 0 7px;
+    cursor: pointer;
+}
+.g-map{
+    border: 2px solid wheat;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 2px;
+}
+.social-media{
+    /* background-image: url(./../../public/wallpaper-4.png); */
+}
+.social-title{
+    color: wheat;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 25px;
+}
+.f-sm{
+    margin: 10px 20px;
+    position: relative;
+    font-size: 2.4rem;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 0;
+}
+.foot-text{
+    color: aliceblue;
+    line-height: 30px;
+}
+.f-sm:hover{
+    color: rgb(163, 218, 255);
+    text-shadow: 0px 0px 40px #f5deb3;
+}
+
+@media screen and (max-width:960px) {
+    .Footer{
+        text-align-last: center;
+    }
+    .logo{
+        width: 8rem;
+    }
+    .links-title{
+        font-size: 1.1rem;
+    }
+    .foot-link{
+        margin: 0 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Footer{
+        padding-top: 0;
+    }
+    .logo{
+        display: none;
+    }
+    .links-title{
+        border-bottom: 1px solid aliceblue;
+    }
+    .social-title{
+        font-size: 1.1rem;
+    }
+    .f-sm{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .Footer{
+        display: grid;
+        text-align-last: center;
+        place-items: center;
+    }
+    .foot-links-wrapper{
+        margin: 40px auto;
+    }
+    .foot-link{
+        justify-content: space-between;
+    }
+    .foot-text{
+        font-size: 0.85rem;
+        margin: 15px 13%;
+        line-height: 20px;
+    }
+    .g-map{
+        width: 80vw;
+    }
+    .f-sm{
+        margin: 10px 15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .f-sm{
+        margin: 10px;
+    }
+}

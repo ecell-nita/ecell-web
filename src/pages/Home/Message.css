@@ -1,0 +1,12 @@
+.message-wrapper{
+    display: flex;
+    color: white;
+    max-width: 850px;
+    margin: 20px auto;
+    align-items: center;
+    gap: 25px;
+}
+
+.message-faculty img{
+    width: 220px;
+}
